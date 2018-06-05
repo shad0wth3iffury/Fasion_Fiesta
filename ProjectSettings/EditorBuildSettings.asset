@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/OpeningCinematic.unity
+    guid: 089bd89b0fc38024989ca2d677a6363a
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 68e08e22f0fa0bb49bd9346127fc983c
