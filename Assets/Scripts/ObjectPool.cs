@@ -7,7 +7,7 @@ public class ObjectPool : MonoBehaviour {
     public static ObjectPool Instance;
     public List<GameObject> PooledObjects = new List<GameObject>();
 
-    private void Start()
+    private void Awake()
     {
         Instance = this;
         DontDestroyOnLoad(this);
